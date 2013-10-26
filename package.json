@@ -1,6 +1,6 @@
 {
   "name": "uwebtools",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Usishi WebTools Library",
   "author": "USISHI ICT <info@usishi.com>",
   "maintainers": [
@@ -12,9 +12,10 @@
   },  
   "main": "./index.js",
   "dependencies": {
-     "connect": ">=1 <2",
-     "gm":"*",
-     "mime": ">=0.0.1"
+    "connect"   : ">=1 <2",
+    "gm"        : "*",
+    "mime"      : ">=0.0.1",
+    "node-uuid" : "*"
   }
   ,"devDependencies": {
     "should" : "*",
