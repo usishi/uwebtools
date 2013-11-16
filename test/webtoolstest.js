@@ -43,4 +43,11 @@ describe('uutils',function(){
   		done();
   	});
   });
+  describe('hashString',function(){
+    it ('returns a string',function(done){
+      var hash = uutils._hashString(testVariables.testString);
+      hash.should.be.string;
+      done();
+    });
+  });
 });
